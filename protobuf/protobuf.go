@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/rai-project/serializer"
-	"github.com/rai-project/serializer/json"
+	"github.com/c3sr/serializer"
+	"github.com/c3sr/serializer/json"
 )
 
 const name = "protobuf"

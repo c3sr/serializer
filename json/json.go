@@ -2,7 +2,7 @@ package json
 
 import (
 	jsoniter "github.com/json-iterator/go"
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 type jsonSerializer struct{}

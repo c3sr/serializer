@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/hydrogen18/stalecucumber"
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 const name = "pickle"

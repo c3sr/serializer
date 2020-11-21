@@ -7,7 +7,7 @@ import (
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 type jsonpbSerializer struct {

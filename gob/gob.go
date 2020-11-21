@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 const name = "gob"
@@ -13,7 +13,7 @@ const name = "gob"
 // See https://golang.org/pkg/encoding/gob/
 var Codec = new(gobCodec)
 
-type gobCodec int
+type gobCodec struct{}
 
 func (c gobCodec) Marshal(v interface{}) ([]byte, error) {
 	var b bytes.Buffer

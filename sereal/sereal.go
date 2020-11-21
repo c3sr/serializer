@@ -2,7 +2,7 @@ package sereal
 
 import (
 	"github.com/Sereal/Sereal/Go/sereal"
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 const name = "sereal"

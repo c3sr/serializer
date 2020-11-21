@@ -3,7 +3,7 @@ package bson
 import (
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 )
 
 type bsonSerializer struct{}

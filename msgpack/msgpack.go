@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/rai-project/serializer"
+	"github.com/c3sr/serializer"
 	"github.com/ugorji/go/codec"
 )
 
